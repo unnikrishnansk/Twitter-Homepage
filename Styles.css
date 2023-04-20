@@ -1,0 +1,357 @@
+.main_div{
+    /* border: 1px solid red; */
+    height: 1400px;
+    width: 100%;
+    display: flex;
+}
+
+.main_left_div{
+    border: 1px solid rgb(226, 223, 223);
+    height: 100%;
+    width: 25%;
+    position: fixed;
+}
+
+.main_mid_div{
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 43%;
+    margin-left: 26%;
+    border-right: 1px solid rgb(226, 223, 223);
+}
+
+.main_right_div{
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 32%;
+    margin-left: 68.5%;
+    position: fixed;
+    z-index: 1;
+}
+
+.main_logo_div{
+    border: 1px solid white;
+    height: 55px;
+    width: 55px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 30px;
+}
+.main_logo_div:hover{
+    cursor: pointer;
+    background-color: rgb(226, 223, 223);
+}
+
+.main_logo{
+    /* font-size: 48px; */
+    display: block;
+    margin-left: 12px;
+    width: 50%;
+    margin-top: 12px;
+}
+
+.heading_1_div{
+    /* border: 1px solid red; */
+    height: 40px;
+    width: 175px;
+    margin-left: 45px;
+    border-radius: 20px;
+    display: flex;
+}
+.heading_1_div:hover{
+    cursor: pointer;
+    background-color: rgb(226, 223, 223);
+}
+
+.hashtag_logo{
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+.explore_title{
+    /* border: 1px solid red; */
+    text-align: center;
+    margin: auto;
+    font: 14px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.explore_title_setting{
+    /* border: 1px solid red; */
+    text-align: center;
+    margin: auto;
+    font-weight: 200;
+    font: 14px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 24px;
+}
+
+.search_div{
+    /* border: 1px solid red; */
+    height: 50px;
+    width: 75%;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: rgb(226, 223, 223);
+    display: flex;
+}
+
+.search_input{
+    margin-left: 50px;
+    border: none;
+    background-color: rgb(226, 223, 223);
+    outline: none;
+    width: 60%;
+}
+
+.main_mid_position_div{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: rgba(255,255,255,0.97);
+    /* opacity: 0.1; */
+}
+
+.search_image{
+    height: 25px;
+    width: 25px;
+    margin-left: 40px;
+    margin-top: 18px;
+    color: rgb(112, 109, 109);
+}
+
+.top_headings{
+    /* border: 1px solid red; */
+    margin-top: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 15px;
+    font-size: 12px;
+}
+
+.headings{
+    /* border: 1px solid red; */
+    width: 20%;
+    text-align: center;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #536471;
+}
+
+.headings_1{
+    /* border: 1px solid red; */
+    width: 20%;
+    text-align: center;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: black;
+    border-bottom: 3px solid rgb(29,155,240);
+}
+
+.headings:hover{
+   cursor: pointer; 
+   background-color: rgb(226, 223, 223);
+}
+
+.premier{
+    /* border: 1px solid red; */
+    height: 30px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    font: 14px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.premier:hover{
+    cursor: pointer;
+}
+
+.left_div{
+    /* border: 1px solid red; */
+    height: 30px;
+    width: 25%;
+    padding-bottom: 16px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.right_div{
+    /* border: 1px solid red; */
+    height: 30px;
+    width: 25%;
+    padding-bottom: 16px;
+    font-weight: 500;
+}
+
+.team_main_div{
+    /* border: 1px solid red; */
+    height: 100px;
+    margin: 10px 10px 0 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    font-style: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.team_main_div:hover{
+    cursor: pointer;
+}
+
+.team_left_div{
+    /* border: 1px solid red; */
+    height: 49%;
+    background-color: rgb(200,16,46);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.team_right_div{
+    /* border: 1px solid green; */
+    height: 49%;
+    background-color: rgb(29,17,96);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.team_logo{
+    height: 35px;
+    width: 35px;
+    padding-top: 15px;
+    margin-left: 30px;
+}
+
+.team_name{
+    margin-left: 50px;
+    margin-top: 15px;
+    width: 50%;
+}
+
+.team_score{
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.team_score_2{
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.trending{
+    /* border: 1px solid red; */
+    height: 80px;
+    margin-top: 5px;
+    line-height: 4px;
+}
+
+.trending p{
+    margin-left: 30px;
+    padding-top: 2px;
+}
+
+.trending div{
+    padding-top: 3px;
+}
+
+.trending:hover{
+    cursor: pointer;
+    background-color: rgb(226, 223, 223);
+}
+
+.first_line{
+    font-size: 13px;
+    color: #536471;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.second_line{
+    font-size: 16px;
+    font-weight: 700;
+    color: #0f1419;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.first_line a{
+    text-decoration: none;
+    color: #1d9bf0;
+    font-weight: 400;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+}
+
+.first_line a:hover{
+    text-decoration: underline;
+}
+
+.right_div_inside{
+    border: 1px solid rgb(226, 223, 223);
+    height: 300px;
+    width: 95%;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.newtotwitter_div{
+    margin-left: 15px;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.inner_para{
+    font-size: 13px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #536471;
+    margin-left: 15px;
+}
+
+.google_sign_in_div{
+    border: 1px solid rgb(226, 223, 223);
+    width: 90%;
+    margin: auto;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 25px;
+}
+
+.google_sign_in_div:hover{
+    background-color: rgb(226, 223, 223);
+    cursor: pointer;
+}
+
+.combined_div{
+    margin-left: 100px;
+    display: flex;
+}
+
+.sign_up_creds{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.terms_conditions{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin-left: 15px;
+    color: #536471;
+}
+
+.terms{
+    font-size: 14px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #536471;
+}
+
+.terms_para{
+    text-decoration: none;
+}
